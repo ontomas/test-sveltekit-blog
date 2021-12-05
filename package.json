@@ -2,8 +2,8 @@
 	"name": "test-blog",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"dev": "env-cmd svelte-kit dev",
+		"build": "env-cmd svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
