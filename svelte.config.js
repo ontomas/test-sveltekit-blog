@@ -1,5 +1,9 @@
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-auto';
+// for netlify or any other static hosting
+// import adapter from '@sveltejs/adapter-static';
+// for vercel hybrid nature
+import adapter from '@sveltejs/adapter-vercel';
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
