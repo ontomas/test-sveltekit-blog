@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-	<title>Test Blog | Welcome</title>
+	<title>{title}</title>
 </svelte:head>
 
 <div class="sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">
