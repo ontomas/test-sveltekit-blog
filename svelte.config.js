@@ -2,7 +2,10 @@ import preprocess from 'svelte-preprocess';
 // for netlify or any other static hosting
 // import adapter from '@sveltejs/adapter-static';
 // for vercel hybrid nature
-import adapter from '@sveltejs/adapter-vercel';
+// import adapter from '@sveltejs/adapter-vercel';
+// testing node
+import adapter from '@sveltejs/adapter-node';
+
 
 
 /** @type {import('@sveltejs/kit').Config} */
