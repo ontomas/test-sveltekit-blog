@@ -11,15 +11,14 @@
 
 <script>
 	export let page;
-	const { title, content } = page;
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>{page.title}</title>
 </svelte:head>
 
-<h1 class="text-4xl font-semibold mb-5">{title}</h1>
+<h1 class="text-4xl font-semibold mb-5">{page.title}</h1>
 
 <article>
-	{@html content.html}
+	{@html page.content.html}
 </article>
