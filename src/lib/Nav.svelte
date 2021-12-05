@@ -10,7 +10,7 @@
 		<div class="flex items-stretch">
 			<a class="btn btn-ghost btn-sm rounded-btn" href="/">Home</a>
 			{#each pages as { title, slug }}
-				<a class="btn btn-ghost btn-sm rounded-btn" href={slug}>{title}</a>
+				<a class="btn btn-ghost btn-sm rounded-btn" href={`/${slug}`}>{title}</a>
 			{/each}
 		</div>
 	</div>
